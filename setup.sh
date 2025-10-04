@@ -6,7 +6,7 @@ if [ -z "$APP_NAME" ]; then
   exit 1
 fi
 
-npm create vite@latest $APP_NAME --template react-ts --no-rolldown --no-interactive
+npm create vite@latest $APP_NAME -- --template react-ts --no-rolldown --no-interactive
 cd $APP_NAME
 
 npm install
