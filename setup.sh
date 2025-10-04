@@ -1,6 +1,7 @@
 #!/bin/bash
 
-read -p "Enter your app name: " APP_NAME
+echo "Bitte gib den App-Namen ein: "
+read APP_NAME
 
 npm create vite@latest $APP_NAME -- --template react-ts
 cd $APP_NAME
