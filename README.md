@@ -4,7 +4,7 @@ Use this template to create a React project with Vite, Typescript and Tailwind.
 
 ## Usage
 
-Copy this command and replace <yourAppName> before executing it:
+Copy this command and replace `<yourAppName>` before executing it:
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/LuisErhardt/React-TS-Tailwind-template/refs/heads/main/setup.sh) <yourAppName>
