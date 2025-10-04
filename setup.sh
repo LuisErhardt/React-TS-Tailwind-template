@@ -1,7 +1,10 @@
 #!/bin/bash
 
-echo "Bitte gib den App-Namen ein: "
-read APP_NAME
+APP_NAME=$1
+if [ -z "$APP_NAME" ]; then
+  echo "Please specify App-Name!"
+  exit 1
+fi
 
 npm create vite@latest $APP_NAME -- --template react-ts
 cd $APP_NAME
